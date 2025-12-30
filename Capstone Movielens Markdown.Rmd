@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 \newpage
 # Introduction
 
+
 This Capstone Project for the HarvardX Professional Certificate in Data Science (PH125.9x) presents an exploratory analysis and modeling of the MovieLens 10M dataset provided by GroupLens Research. The objective is to develop a machine learning model capable of predicting movie ratings. After preparing the dataset, training, validation, and final hold-out partitions are created in accordance with the project guidelines, ensuring that every user and movie in the test set is also represented in the training set.
 
 The target performance metric is an RMSE below **0.86490** on the final hold-out test set. Two main families of recommender-system models are implemented and evaluated:
